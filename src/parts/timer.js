@@ -21,7 +21,7 @@ const timer = () => {
             'seconds' : seconds
         };
 
-    }
+    };
 
     const setClock = (id, endtime) => {
 
@@ -57,10 +57,10 @@ const timer = () => {
 
         }
 
-    }
+    };
 
     setClock('timer', deadline);
 
-}
+};
 
 module.exports = timer;

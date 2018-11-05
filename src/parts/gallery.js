@@ -40,6 +40,6 @@ const gallery = () => {
         
     });
 
-}
+};
 
 module.exports = gallery;
