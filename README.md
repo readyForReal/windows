@@ -1,2 +1,1 @@
-# diploma
-# windows
+# hard work pays off
