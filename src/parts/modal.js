@@ -17,7 +17,7 @@ const modal = () => {
 
     popupToggle = (popup, closeBtn) => {
 
-        event.preventDefault();
+        if ( event ) { event.preventDefault(); }
         popup.style.display = 'block';
         document.querySelector('html').style.overflow = 'hidden';
 
@@ -52,6 +52,12 @@ const modal = () => {
     measurePopupBtn.addEventListener('click', () => {
         popupToggle(engineerPopup, popupCloseBtn[1]);
     });
+
+    func = () => {
+        popupToggle(phonePopup, popupCloseBtn[0])
+    }
+
+    setTimeout(func, 60000);
 
 };
 
