@@ -5,11 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
 	let	modal = require('./parts/modal.js'),
 		tabs = require('./parts/tabs.js'),
 		timer = require('./parts/timer.js'),
-		gallery = require('./parts/gallery.js');
+		gallery = require('./parts/gallery.js'),
+		form = require('./parts/form.js');
 
 	modal();
 	tabs();
 	timer();
 	gallery();
+	form();
 
 });

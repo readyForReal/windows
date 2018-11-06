@@ -67,7 +67,6 @@ const tabs = () => {
     });
 
     decorationTabBtnParent.addEventListener('click', () => {
-        console.log(event.target.parentNode.parentNode);
         toggleTabs('decoration_item', decorationTabBtn, decorationTabContent, decorationTabBtnLinks, 'after_click');
 
     });
