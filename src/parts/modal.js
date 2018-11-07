@@ -61,4 +61,4 @@ const modal = () => {
 
 };
 
-module.exports = modal;
+export default modal;

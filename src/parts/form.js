@@ -109,5 +109,5 @@ const form = () => {
 
 };
     
-module.exports = form;
+export default form;
 export {sendForm};
