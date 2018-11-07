@@ -1,1 +1,1 @@
-# hard work pays off
+# diploma
