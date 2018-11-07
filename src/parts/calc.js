@@ -144,7 +144,7 @@ const calc = () => {
     let checkBoxOne = document.querySelectorAll('.checkbox')[0],
         checkBoxTwo = document.querySelectorAll('.checkbox')[1];
 
-    checkBoxOne.addEventListener('change', (e) => {
+    checkBoxOne.addEventListener('change', function(event) {
 
         if (checkBoxOne.checked) {
 
@@ -157,11 +157,11 @@ const calc = () => {
 
         }
 
-        e.stopImmediatePropagation();
+        event.stopImmediatePropagation();
 
     });
 
-    checkBoxTwo.addEventListener('change', (e) => {
+    checkBoxTwo.addEventListener('change', function(event) {
 
         if (checkBoxTwo.checked) {
 
@@ -174,7 +174,7 @@ const calc = () => {
 
         }
 
-        e.stopImmediatePropagation();
+        event.stopImmediatePropagation();
 
     });
 
@@ -235,10 +235,10 @@ const calc = () => {
 
     for ( let i = 0 ; i < popupCalcBalconIcons.length ; i++ ) {
 
-        popupCalcBalconIcons[i].addEventListener('click', function(e) {
+        popupCalcBalconIcons[i].addEventListener('click', function(event) {
 
-            e.preventDefault();
-            let t = e.target;
+            event.preventDefault();
+            let t = event.target;
             
             obj.frame = t.parentNode.classList.value;
 
