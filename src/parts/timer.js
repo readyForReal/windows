@@ -63,4 +63,4 @@ const timer = () => {
 
 };
 
-export default timer;
+module.exports =  timer;

@@ -235,7 +235,7 @@ const calc = () => {
 
     for ( let i = 0 ; i < popupCalcBalconIcons.length ; i++ ) {
 
-        popupCalcBalconIcons[i].addEventListener('click', function(event) {
+        popupCalcBalconIcons[i].addEventListener('click', function(e) {
 
             event.preventDefault();
             let t = event.target;
@@ -251,4 +251,4 @@ const calc = () => {
     }
 };
 
-export default calc;
+module.exports = calc;

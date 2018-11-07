@@ -73,4 +73,4 @@ const tabs = () => {
     
 };
 
-export default tabs;
+module.exports = tabs;

@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "npm run webpack",
+    "start": "webpack",
     "webpack": "webpack -d --watch"
   },
   "keywords": [],

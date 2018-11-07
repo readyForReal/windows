@@ -42,4 +42,4 @@ const gallery = () => {
 
 };
 
-export default gallery;
+module.exports = gallery;
