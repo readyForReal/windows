@@ -224,7 +224,7 @@ const form = () => {
 
     for ( let i = 0 ; i < calcOpenBtn.length ; i++ ) { // listen to calc popup buttons
 
-        calcOpenBtn[i].addEventListener('click', () => {
+        calcOpenBtn[i].addEventListener('click', function() {
 
             togglePopup(popupCalc, popupCalcCloseBtn);
 
